@@ -5,6 +5,11 @@
 ```bash
 $ kubectl api-resources
 
+# 位于名字空间中的资源
+$ kubectl api-resources --namespaced=true
+# 不在名字空间中的资源
+$ kubectl api-resources --namespaced=false
+
 $ kubectl get namespaces
 $ kubectl describe ns default
 
@@ -43,6 +48,9 @@ $ kubectl delete ns hydra
 
 ```bash
 $ kubectl config set-context --current --namespace shield
+
+# 验证
+$ kubectl config view --minify | grep namespace:
 ```
 
 #### Deploying to Namespaces
