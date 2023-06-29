@@ -1,8 +1,8 @@
 ### 3: Getting Kubernetes
 
-• Docker Desktop
-• [K3d](https://k3d.io)
-• [KinD](https://kind.sigs.k8s.io/)
+1. Docker Desktop
+1. [K3d](https://k3d.io)
+1. [KinD](https://kind.sigs.k8s.io/)
 
 > It’s important that your kubectl version is no more than one minor version higher or lower than your cluster. For example, if your cluster is running Kubernetes 1.26.x, your kubectl should be no lower than 1.25.x and no higher than 1.27.x.
 
