@@ -7,3 +7,4 @@
 1. [Working with Pods](./working-with-pods.md)
 1. [Virtual clusters with Namespaces](./virtual-clusters-with-namespaces.md)
 1. [Kubernetes Deployments](./kubernetes-deployments.md)
+1. [Kubernetes Services](./kubernetes-services.md)
