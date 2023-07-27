@@ -68,6 +68,10 @@ spec:
     chapter: services
 ```
 
++ Port is the port the Service listens on inside the cluster
++ TargetPort is the port the application is listening on
++ NodePort is the cluster-wide port that can be used for external access
+
 #### EndpointSlice objects
 
 ```bash

@@ -9,7 +9,7 @@ metadata:
   name: hello-deploy
 spec:
   replicas: 10
-  selector:
+  selector: # Pods
     matchLabels:
       app: hello-world
   revisionHistoryLimit: 5
