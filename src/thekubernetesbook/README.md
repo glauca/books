@@ -8,4 +8,5 @@
 1. [Virtual clusters with Namespaces](./virtual-clusters-with-namespaces.md)
 1. [Kubernetes Deployments](./kubernetes-deployments.md)
 1. [Kubernetes Services](./kubernetes-services.md)
-1. [Kubernetes Services](./ingress.md)
+1. [Ingress](./ingress.md)
+1. [Service discovery deep dive](./service-discovery-deep-dive.md)
